@@ -67,3 +67,24 @@ Hướng dẫn cài đặt và chạy frontend, backend sẽ được cập nh�
 ## 9. Tác giả
 
 Nguyễn Chí Dương - MSSV 235685.
+## Câu 2. Tạo cơ sở dữ liệu MongoDB Atlas
+
+- Nền tảng: MongoDB Atlas
+- Cluster: Cluster0
+- Database: 235685_NguyenChiDuong
+- Collection: devices
+
+### Dữ liệu thiết bị
+
+Đã tạo 3 thiết bị mẫu:
+1. TB001 - Máy chiếu Epson
+2. TB002 - Máy tính Dell
+3. TB003 - Loa Sony
+
+### Các trường dữ liệu
+
+deviceId, name, deviceType, room, brand, model,
+quantity, status, purchaseDate, description.
+
+Database được cấu hình quyền truy cập và Network Access
+để backend có thể kết nối.
